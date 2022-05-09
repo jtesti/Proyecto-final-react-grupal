@@ -1,0 +1,57 @@
+@import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
+@import "primereact/resources/primereact.min.css";                  //core css
+@import "primeicons/primeicons.css";                                //icons
+
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.nav-botton{
+    height: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content:space-evenly;
+    border-top: solid 4px black;
+    position:fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+    .loading{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .loading-title{
+        margin-top: 20rem;
+    }
+
+
+    .px-3{
+        margin-right: 10px;
+        height: 44px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-right: 10px;
+        border:none
+    }
+
+    .btn{
+        margin-top: 10px;
+        border: none;
+        border-radius: 30px;
+        width: 80px;
+        height: 40px;
+        background-color: #334791;
+        color: white;
+    }
+    .btn:hover{
+        background-color: rgb(33, 24, 153);
+        color: white;
+        box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    }
